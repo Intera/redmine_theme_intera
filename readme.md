@@ -5,5 +5,10 @@
 * edit button moved to the left
 * replaced "+" with "New" for the new object button if the selected language is english
 
+## setup
+* copy the "intera" directory into the redmine project directory under public/themes/
+* under Administration -> Settings, tab Display, select theme "Intera"
+
+## screenshots
 ![](other/screenshots/2.png)
 ![](other/screenshots/1.png)

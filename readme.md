@@ -4,3 +4,6 @@
 * normalized sizes to multiples of 5px
 * edit button moved to the left
 * replaced "+" with "New" for the new object button if the selected language is english
+
+![](other/screenshots/2.png)
+![](other/screenshots/1.png)

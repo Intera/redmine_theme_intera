@@ -44,22 +44,22 @@ code,pre{font-family:Consolas,Menlo,"Liberation Mono",Courier,monospace}
 #sidebar{flex-shrink:0;padding-left:20px;padding-right:10px;background:#efefef;border-left:1px solid #e1e1e1}
 #admin-menu ul,#top-menu ul{margin:0;padding:0}
 #account,#quick-search{float:right}
-@media screen and (min-width:0px) and (max-width:1089px){
+@media screen and (min-width:0px) and (max-width:1089px) {
 #sidebar{width:22%}
 }
-@media screen and (min-width:1090px) and (max-width:1279px){
+@media screen and (min-width:1090px) and (max-width:1279px) {
 #sidebar{width:240px}
 }
-@media screen and (min-width:1280px) and (max-width:1599px){
+@media screen and (min-width:1280px) and (max-width:1599px) {
 #sidebar{width:280px}
 }
-@media screen and (min-width:1600px) and (max-width:1919px){
+@media screen and (min-width:1600px) and (max-width:1919px) {
 #sidebar{width:320px}
 }
-@media screen and (min-width:1920px) and (max-width:2559px){
+@media screen and (min-width:1920px) and (max-width:2559px) {
 #sidebar{width:360px}
 }
-@media screen and (min-width:2560px){
+@media screen and (min-width:2560px) {
 #sidebar{width:380px}
 }
 #sidebar h3{font-size:14px;margin-top:15px;color:#626262}
@@ -146,7 +146,6 @@ tr.changeset td.revision_graph{width:15%;background-color:#fff}
 table.files tr.file td.filename{text-align:left;padding-left:25px}
 table.members td.roles,table.memberships td.roles{width:45%}
 table.members td.buttons{text-align:left;width:0;white-space:nowrap}
-tr.message{height:25px}
 tr.message td.last_message{font-size:80%;white-space:nowrap}
 #principals_for_new_member .icon-user,tr.member td.icon-user{background:#fff}
 tr.user td{width:13%;white-space:nowrap}
@@ -384,7 +383,6 @@ p.percent{font-size:80%;margin:0}
 p.progress-info{clear:left;font-size:80%;margin-top:-5px;color:#767676}
 .version-overview table.progress{width:400px}
 #content .tabs{overflow:hidden;position:relative;height:30px}
-body.controller-issues #content .tabs{height:25px}
 #content .tabs ul{margin:0;position:absolute;bottom:0;padding-left:5px;min-width:2000px;width:100%;border-bottom:1px solid #bebebe}
 #content .tabs ul li{float:left;list-style-type:none;white-space:nowrap;margin-right:5px;position:relative;margin-bottom:0}
 #content .tabs ul li a{display:block;font-size:.9em;text-decoration:none;line-height:20px;padding:5px;border:1px solid #bebebe;border-bottom:1px solid #bebebe;color:#9f9f9f;font-weight:700;border-top-left-radius:3px;border-top-right-radius:3px}
@@ -653,7 +651,8 @@ table.progress td.closed,table.progress td.done{background:#d0f2d0 none repeat s
 .syntaxhl .fm,.syntaxhl .mh,.syntaxhl .nf,.syntaxhl .nn{color:#226fa1;font-weight:700}
 .syntaxhl .c,.syntaxhl .c1,.syntaxhl .ch,.syntaxhl .cm,.syntaxhl .cpf,.syntaxhl .go,.syntaxhl .nv,.syntaxhl .ss,.syntaxhl .vm{color:#767676}
 #csv-export-options fieldset,#issue_tree td.buttons,#relations td.buttons,.gantt_subjects_column+td,.jstBlock .wiki-preview,table td,table.gantt-table td{padding:0}
-@media print{
+tr.message,body.controller-issues #content .tabs{height:25px}
+@media print {
 #main{background:#fff}
 #content{width:99%;margin:0;padding:0;border:0;background:#fff;overflow:visible!important}
 .hide-when-print,.pagination .per-page,.pagination ul.pages{display:none!important}
@@ -667,7 +666,7 @@ img{image-orientation:from-image}
 .filecontent-container{position:relative;margin-bottom:20px;min-height:200px}
 .filecontent-container>.filecontent{position:absolute;max-height:100%;max-width:100%}
 .filecontent.wiki{position:relative;padding:20px;border:1px solid #e1e1e1;border-radius:4px}
-@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active) {
 select::-ms-expand{display:none}
 select[multiple=multiple]{padding-right:0}
 }
@@ -699,7 +698,7 @@ div.flash.conflict,div.flash.warning{background-image:url(/images/warning.png)}
 div.flash.error{background-image:url(/images/exclamation.png)}
 #errorExplanation,.nodata,.warning{text-shadow:0 1px #fff;border:0}
 div.filters h2 .scope_title a{color:#434343;text-decoration:none}
-#sidebar{background:#f5f5f5;border:1px solid #e1e1e1;box-shadow:3px 3px rgba(0,0,0,.05);padding:0 10px 20px 15px!important;width:260px!important}
+#sidebar{background:#f5f5f5;border:1px solid #e1e1e1;box-shadow:3px 3px rgba(0,0,0,.05);padding:0 10px 20px 15px !important;width:260px!important}
 div#content h2.contacts_header,div#content>#add-document>h2,div#content>#add-message>h2,div#content>#add-news>h2,div#content>.board.details>h2,div#content>.message.details>h2,div#content>div.filters h2,div#content>h2:not(.inline-flex){background:#f3f6f8;border-bottom:0 solid #e1e1e1;color:#434343;font-size:20px;font-weight:700;letter-spacing:-1px;margin:-10px -20px 20px;padding:10px 20px}
 div#content>h2{color:#434343;font-size:24px;padding:0;font-size:16px;font-weight:400}
 .controller-boards.action-index #add-message{position:static}
@@ -732,7 +731,6 @@ div.issue.tooltip{margin:0 0 5px;padding:5px}
 .table-list:not(:last-child),table.list:not(:last-child){border-collapse:collapse;border-radius:0;margin-bottom:10px}
 div#content .context-menu-selection{background-color:#659ac0!important}
 #quick-search select{max-width:300px}
-table.list td.icon{padding-left:25px}
 table.list tr{color:#626262}
 table.list tr>td{border-top:1px solid #e1e1e1}
 tr.even.priority-3{background:#fafafa}
@@ -750,7 +748,6 @@ option{border-bottom:1px dotted #e1e1e1}
 input.autocomplete{border-radius:0;padding-left:20px!important;border-radius:initial}
 select#project_quick_jump_box{border-radius:12px;box-shadow:inset 0 1px 4px rgba(0,0,0,.15);outline:0;padding-left:10px}
 select{appearance:none;background:url(../../../images/select.png) no-repeat right #fff;background-color:#fff;background-size:18px 16px;border-radius:1px;cursor:pointer;min-height:23px;padding:5px 30px 5px 5px;text-indent:.01px;z-index:1;padding:5px 30px 5px 5px;min-height:25px;background:0 0}
-table.list tbody tr.even.priority-7:hover,table.list tbody tr.odd.priority-7:hover,tr.even.priority-7,tr.odd.priority-7{font-weight:700}
 table.list tbody tr.even.priority-3:hover,table.list tbody tr.odd.priority-3:hover,tr.even.priority-3,tr.odd.priority-3,tr.priority-3 a{color:#2f4757}
 select[multiple=multiple]{background:#fff;height:auto;padding:5px}
 fieldset#filters td.values input:focus,input[type=date]:focus,input[type=password]:focus,input[type=search]:focus,input[type=text]:focus,select:focus,textarea:focus{border-color:#226fa1;outline:0}
@@ -857,7 +854,6 @@ div#content .subject h3{font-size:18px;margin-top:0;padding-top:0;margin-bottom:
 div.journal ul.details,ul.revision-info{margin:10px 0;padding-left:20px}
 div.journal ul.details li{list-style-type:none}
 div.journal.private-notes .wiki{margin-left:20px;padding-left:10px;background-color:#fafafa}
-.note-header{font-weight:700}
 #tab-content-history .note-header span{margin-left:5px;margin-left:5px}
 .buttons{margin:0;margin-left:5px;margin-bottom:20px}
 fieldset.collapsible>legend{background-position:0;padding-left:20px}
@@ -877,7 +873,6 @@ ul.projects.root .root>a{display:block}
 #projects-index ul.projects div.description p{padding:10px;margin:0;padding-bottom:0;padding-left:20px;color:#434343}
 .box{line-height:20px;padding:0;border:0;border-radius:0;background:0 0;margin:0}
 .controller-projects.action-show .box{margin-bottom:30px}
-.controller-projects.action-show .splitcontentleft .box:first-of-type{margin-top:20px}
 dl#search-results{margin:20px}
 div#activity dl{margin:10px 20px;margin-right:0}
 div#activity dt{border:0;padding-top:5px}
@@ -909,7 +904,6 @@ body.controller-versions.action-index .version-overview p.progress-info{margin-b
 .icon-only{padding-left:15px;height:15px}
 table.list caption{padding:5px 5px 5px 0}
 div#roadmap .related-issues{margin-bottom:15px}
-.icon{padding-left:25px}
 div#roadmap .version-article{padding-bottom:20px}
 .tabular label{line-height:20px}
 .mypage-box{line-height:inherit;padding:10px;color:#626262;border-color:#e1e1e1}
@@ -922,7 +916,6 @@ div#roadmap .version-article{padding-bottom:20px}
 #search-form fieldset.collapsible.collapsed,fieldset.collapsible,fieldset.collapsible.collapsed{padding:10px 0}
 #projects-index ul.projects div.description p:last-child,#query_form_content>:last-child{padding-bottom:0}
 #content .jstTabs.tabs li,fieldset#filters tr.filter{height:30px!important}
-#content .jstTabs.tabs li:not(:first-child){margin-left:5px}
 #content .jstTabs.tabs li>.jstElements{height:30px;padding:0;margin-left:15px}
 #my-page #list-top,#projects-index ul.projects div.description p:first-child,div#activity dt:first-child{padding-top:0}
 .box.filedroplistner{margin-bottom:10px}
@@ -942,9 +935,7 @@ div.journal .note>p{margin:10px 0;margin-left:20px}
 #content .jstTabs.tabs li,#content ul li ul,#search-form fieldset p,#search-form p,.contextual,.controller-projects.action-show .box>p,.table-list,div#roadmap,div#search-results-counts ul,div.issue div.subject>div>p,div.thumbnails img,table.list{margin:0}
 .pagination ul.pages li:first-child,table.list td+td,table.list th+th{border-left:1px solid #e1e1e1}
 .splitcontentleft{margin-right:10px}
-#history,#query_form .tabs,.controller-messages.action-show .message .contextual,body.controller-projects.action-settings #content .tab-content>form>:not(:first-child),div.journal>div{margin-top:20px}
 body.controller-settings.action-index #content .tab-content>form>*,div.issue .attributes,div.issue p.author{margin-top:15px}
-#add_filter_select,#project-jump,.splitcontentright{margin-left:5px}
 .tabular label:not(:first-child){margin-left:0}
 #query_form_content>fieldset>div,#tab-content-versions fieldset>label,.issue .attachments>*,.issue .description>.wiki,label.inline:not(:first-child){margin-left:20px}
 #content .tabs ul li,div.buttons a,label button,label input,label select,table.list td.buttons a{margin-right:5px}
@@ -961,11 +952,15 @@ body.controller-users.action-show .splitcontentleft>h3:not(:first-of-type),body.
 #projects-index ul.projects li.child ul li,#projects-index ul.projects li.child ul li:first-child,.controller-wiki div#content>div.contextual,body.controller-issues .action-show div#content>div.contextual{margin-top:5px}
 #content>.contextual:first-child,body.controller-issues.action-show #content>.contextual:first-child{margin-top:-5px}
 #content .jstTabs.tabs,#projects-index>ul.projects,.journal .note .wiki blockquote:first-child,.ui-datepicker-prev span,.wiki p:first-child,body.controller-contacts.action-index #content>.contextual:first-child,body.controller-my.action-page #content>.contextual:first-child,body.controller-versions.action-index .version-overview p,div#activity h3+dl,div#content .subject>div>p+div>h3,div.journal .note .wiki p:first-child,div.journal.private-notes .wiki p,div.ui-datepicker-next span,p.progress-info{margin-top:0}
-@media print{
+table.list td.icon,.icon{padding-left:25px}
+table.list tbody tr.even.priority-7:hover,table.list tbody tr.odd.priority-7:hover,tr.even.priority-7,tr.odd.priority-7,.note-header{font-weight:700}
+.controller-projects.action-show .splitcontentleft .box:first-of-type,#history,#query_form .tabs,.controller-messages.action-show .message .contextual,body.controller-projects.action-settings #content .tab-content>form>:not(:first-child),div.journal>div{margin-top:20px}
+#content .jstTabs.tabs li:not(:first-child),#add_filter_select,#project-jump,.splitcontentright{margin-left:5px}
+@media print {
 #sidebar{display:none}
 div#content{width:100%}
 }
-@media screen and (max-width:899px){
+@media screen and (max-width:899px) {
 .controller-time_entry_reports div#content .contextual,.controller-timelog div#content .contextual,div#content>div.contextual{margin-right:0;margin-top:0}
 #content>.contextual .drdn,#content>.contextual>a,p.buttons a{border:0!important}
 #history .tabs{overflow:visible;margin-bottom:-5px}

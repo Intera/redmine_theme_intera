@@ -953,7 +953,7 @@ body.controller-users.action-show .splitcontentleft>h3:not(:first-of-type),body.
 #content>.contextual:first-child,body.controller-issues.action-show #content>.contextual:first-child{margin-top:-5px}
 #content .jstTabs.tabs,#projects-index>ul.projects,.journal .note .wiki blockquote:first-child,.ui-datepicker-prev span,.wiki p:first-child,body.controller-contacts.action-index #content>.contextual:first-child,body.controller-my.action-page #content>.contextual:first-child,body.controller-versions.action-index .version-overview p,div#activity h3+dl,div#content .subject>div>p+div>h3,div.journal .note .wiki p:first-child,div.journal.private-notes .wiki p,div.ui-datepicker-next span,p.progress-info{margin-top:0}
 table.list td.icon,.icon{padding-left:25px}
-table.list tbody tr.even.priority-7:hover,table.list tbody tr.odd.priority-7:hover,tr.even.priority-7,tr.odd.priority-7,.note-header{font-weight:700}
+table.list tr.priority-highest,table.list tr.priority-high2,.note-header{font-weight:700}
 .controller-projects.action-show .splitcontentleft .box:first-of-type,#history,#query_form .tabs,.controller-messages.action-show .message .contextual,body.controller-projects.action-settings #content .tab-content>form>:not(:first-child),div.journal>div{margin-top:20px}
 #content .jstTabs.tabs li:not(:first-child),#add_filter_select,#project-jump,.splitcontentright{margin-left:5px}
 @media print {

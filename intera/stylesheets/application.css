@@ -355,6 +355,7 @@ div.flash.notice{background:url(../../../images/true.png) 8px 5px no-repeat;back
 .conflict,div.flash.warning{background:url(../../../images/warning.png) 8px 5px no-repeat;background-color:#ffd;border-color:#ffd;color:#767676;text-align:left}
 .warning{text-align:center;background-color:#ffd;border-color:#ffd;color:#767676}
 .nodata{background-color:#f5f5f5;text-align:center}
+.mypage-box .nodata{margin:0}
 #ajax-indicator{position:absolute;background-color:#efefef;border:1px solid #bebebe;top:35%;left:40%;width:20%;font-weight:700;text-align:center;padding:5px;z-index:100;opacity:.5}
 html>body #ajax-indicator{position:fixed}
 #ajax-indicator span{background-position:0 40%;background-repeat:no-repeat;background-image:url(../../../images/loading.gif);padding-left:25px;vertical-align:bottom}
@@ -448,7 +449,7 @@ table.gantt-table{width:100%;border-collapse:collapse}
 .badge-status-closed{color:#2ea122;border:1px solid #2ea122}
 .badge-issues-count{background:#efefef}
 .ui-tooltip{background:#000;color:#fff;border-radius:4px;border:0;box-shadow:none;white-space:pre-wrap}
-.icon{background-position:5px 50%;background-repeat:no-repeat;padding-left:20px}
+.icon{background-position:0 50%;background-repeat:no-repeat;padding-left:20px}
 .icon-only{background-position:0 50%;background-repeat:no-repeat;padding-left:15px;display:inline-block;width:0;height:15px;overflow:hidden;padding-top:0;padding-bottom:0;font-size:8px;vertical-align:middle}
 .icon-only::after{content:"\a0"}
 .icon-add{background-image:url(../../../images/add.png)}
@@ -626,7 +627,7 @@ div.buttons a,h2 img.gravatar,h3 img.gravatar,table.list td.buttons a{margin-rig
 table.issues td.block_column span,table.plugins span.name{font-weight:700;display:block;margin-bottom:5px}
 fieldset#date-range p,table p{margin:0}
 #issue-changesets div.changeset:nth-child(odd),.odd,.syntaxhl .dl,.syntaxhl .s,.syntaxhl .s1,.syntaxhl .s2,.syntaxhl .sa,.syntaxhl .sb,.syntaxhl .sh,button.tab-left:hover,button.tab-right:hover,table.list:not(.odd-even) tbody tr:nth-child(odd){background-color:#fafafa}
-#sidebar span.icon-warning,.buttons>.icon:not(:first-child),.contextual .journal-actions>:not(:first-child),.query-totals>span:not(:first-child){margin-left:10px}
+#sidebar span.icon-warning,.buttons>.icon:not(:first-child),.query-totals>span:not(:first-child){margin-left:10px}
 #watchers img.gravatar,.gantt_subjects .issue-subject img.icon-gravatar{margin:0 5px 0 0}
 #issue-changesets div.changeset:nth-child(2n):hover,#issue-changesets div.changeset:nth-child(odd):hover,.even:hover,.gantt_subjects div.issue-subject:hover,.highlight,.odd:hover,.syntaxhl .hll,table.list:not(.odd-even) tbody tr:nth-child(2n):hover,table.list:not(.odd-even) tbody tr:nth-child(odd):hover{background-color:#ffd}
 #projects-index ul.projects li.child,div.issue .attributes{margin-top:20px}
@@ -952,7 +953,7 @@ body.controller-users.action-show .splitcontentleft>h3:not(:first-of-type),body.
 #projects-index ul.projects li.child ul li,#projects-index ul.projects li.child ul li:first-child,.controller-wiki div#content>div.contextual,body.controller-issues .action-show div#content>div.contextual{margin-top:5px}
 #content>.contextual:first-child,body.controller-issues.action-show #content>.contextual:first-child{margin-top:-5px}
 #content .jstTabs.tabs,#projects-index>ul.projects,.journal .note .wiki blockquote:first-child,.ui-datepicker-prev span,.wiki p:first-child,body.controller-contacts.action-index #content>.contextual:first-child,body.controller-my.action-page #content>.contextual:first-child,body.controller-versions.action-index .version-overview p,div#activity h3+dl,div#content .subject>div>p+div>h3,div.journal .note .wiki p:first-child,div.journal.private-notes .wiki p,div.ui-datepicker-next span,p.progress-info{margin-top:0}
-table.list td.icon,.icon{padding-left:25px}
+table.list td.icon,.icon{padding-left:20px}
 table.list tr.priority-highest,table.list tr.priority-high2,.note-header{font-weight:700}
 .controller-projects.action-show .splitcontentleft .box:first-of-type,#history,#query_form .tabs,.controller-messages.action-show .message .contextual,body.controller-projects.action-settings #content .tab-content>form>:not(:first-child),div.journal>div{margin-top:20px}
 #content .jstTabs.tabs li:not(:first-child),#add_filter_select,#project-jump,.splitcontentright{margin-left:5px}
@@ -972,3 +973,7 @@ div#content{width:100%}
 .tabular input,.tabular select{max-width:95%}
 .tabular.settings label ~ *{margin-left:10px}
 .splitcontentleft > .wiki + ul + .box{margin-top:30px}
+body.controller-contacts tr > .name{padding-left:10px}
+body.controller-issues .journal.has-journal-message .gravatar{display:none}
+body.controller-issues .icon-helpdesk-reply + .icon-edit{margin-left:5px}
+body.controller-issues .journal-actions .drdn{margin-left:5px}

@@ -599,6 +599,7 @@ table.plugins span.description,table.plugins span.url{display:block;font-size:.9
 #content .tabs ul li a.selected:hover,#issue-changesets div.changeset:nth-child(2n),.even,table.list:not(.odd-even) tbody tr:nth-child(2n){background-color:#fff}
 #search-results dd .description,.summary,.syntaxhl .ge,div#activity dd .description,tr.builtin td.name,ul.properties li span{font-style:italic}
 .contextual .icon,table.cal td .icon{padding-top:0;padding-bottom:5px}
+.contextual .icon{background-position:5px 50%}
 .message .contextual,div.issue .attribute.text_cf .value .wiki p:first-of-type,div.journal .contextual,li p{margin-top:0}
 .syntaxhl .o,legend{color:#434343}
 div#search-results-counts ul,div.issue div.subject>div>p,div.issue p.author{margin-top:5px}
@@ -762,9 +763,6 @@ img.gravatar{border:1px solid #e1e1e1;border-radius:0;box-shadow:0 3px 5px rgba(
 .controller-issues div#content>div.wiki{padding-top:15px}
 ul.projects.root{padding:0 10px;padding:0}
 div.journal .details{border:1px solid #fff}
-#context-menu,#context-menu ul li ul{box-shadow:0 0 3px #d7d7d7}
-#context-menu li:hover{background-color:#efefef;border:1px solid #efefef!important}
-#context-menu ul{border-bottom:1px solid #e1e1e1!important;border-left:1px solid #e1e1e1;border-right:1px solid #e1e1e1!important;border-top:1px solid #e1e1e1}
 div.tooltip:hover span.tip{border:1px solid #e1e1e1;box-shadow:0 3px 5px rgba(0,0,0,.05)}
 table.progress td.closed{background:#d4edd4 none repeat scroll 0}
 table.progress td.done{background:#efefef none repeat scroll 0}
@@ -967,8 +965,6 @@ div#content{width:100%}
 #history .tabs{overflow:visible;margin-bottom:-5px}
 #history{margin-top:0}
 }
-#context-menu a{padding:5px 30px!important}
-#context-menu li.folder > ul{left:140px!important}
 #filters-table .field > label{margin-left:5px}
 .tabular input,.tabular select{max-width:95%}
 .tabular.settings label ~ *{margin-left:10px}

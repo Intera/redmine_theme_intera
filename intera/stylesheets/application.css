@@ -1,8 +1,8 @@
 body,html{min-height:100vh}
 html{overflow-y:scroll}
-body{font-family:Verdana,sans-serif;font-size:12px;color:#434343;margin:0;padding:0;min-width:900px}
+body{font-family:Verdana,sans-serif;font-size:12px;color:#404040;margin:0;padding:0;min-width:900px}
 h1,h2,h3,h4,h5,h6{font-family:"Trebuchet MS",Verdana,sans-serif;padding:0 10px 0 0;margin:0 0 10px}
-#content h1,h2,h3,h4,h5,h6{color:#626262}
+#content h1,h2,h3,h4,h5,h6{color:#404040}
 h2{font-size:20px}
 h3{font-size:16px}
 h4{font-size:13px;border-bottom:1px solid #bebebe;font-weight:400}
@@ -30,7 +30,7 @@ code,pre{font-family:Consolas,Menlo,"Liberation Mono",Courier,monospace}
 #main-menu{position:absolute;bottom:0;left:10px;margin-right:-500px;width:100%}
 #main-menu ul{margin:0;padding:0;width:100%;white-space:nowrap}
 #main-menu li{float:none;list-style-type:none;margin:0 5px 0 0;padding:0;white-space:nowrap;display:inline-block}
-#main-menu li a{display:block;color:#fff;text-decoration:none;font-weight:700;margin:0;padding:5px 10px;border-top-left-radius:3px;border-top-right-radius:3px}
+#main-menu li a{display:block;color:#fff;text-decoration:none;font-weight:700;margin:0;padding:5px 15px;border-top-left-radius:3px;border-top-right-radius:3px}
 #main-menu li a:hover{background:#9f9f9f;color:#fff}
 #main-menu li ul.menu-children.visible,#main-menu li:hover ul.menu-children{display:block}
 #main-menu li a.new-object{background-color:#9f9f9f}
@@ -183,15 +183,15 @@ input:disabled,select:disabled,textarea:disabled{cursor:not-allowed;color:grayte
 .highlight.token-1{background-color:#f9cacf}
 .highlight.token-2{background-color:#d0f2d0}
 .highlight.token-3{background-color:#bebebe}
-.box{padding:5px;margin-bottom:10px;background-color:#f5f5f5;color:#434343;line-height:1.5em;border:1px solid #e1e1e1;word-wrap:break-word;border-radius:4px}
+.box{padding:5px;margin-bottom:10px;background-color:#f5f5f5;color:#404040;line-height:1.5em;border:1px solid #e1e1e1;word-wrap:break-word;border-radius:4px}
 div.square{border:1px solid #9f9f9f;float:left;margin:5px 5px 0;overflow:hidden;width:5px;height:5px}
 .contextual{float:right;white-space:nowrap;line-height:1.4em;margin:5px 0;padding-left:10px;font-size:.9em}
 .splitcontent{overflow:auto;display:flex;flex-wrap:wrap}
 .splitcontentleft{flex:1;margin-right:5px}
 .splitcontentright{flex:1;margin-left:5px}
 .splitcontenttop{flex:2;flex-basis:100%}
-button,input,select{vertical-align:middle;margin-top:0;margin-bottom:0;height:25px;padding:0 5px}
-button,input,select,textarea{color:#434343;background-color:#fff;border:1px solid #bebebe;border-radius:4px;box-sizing:border-box}
+button,input,select{vertical-align:middle;margin-top:0;margin-bottom:0;padding:0 5px}
+button,input,select,textarea{color:#404040;background-color:#fff;border:1px solid #bebebe;border-radius:4px;box-sizing:border-box}
 select{-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;-o-appearance:none;appearance:none;background-color:#fff;background-image:url(../../../images/arrow_down.png);background-repeat:no-repeat;background-position:calc(100% - 7px) 50%;padding-right:20px}
 input[type=file]{border:0;padding-left:0;padding-right:0;height:initial;background-color:initial}
 button[type=submit],input[type=submit]{-webkit-appearance:button;cursor:pointer;background-color:#fff;height:30px;-webkit-transition:background-color .1s linear;-moz-transition:background-color .1s linear;-o-transition:background-color .1s linear;transition:background-color .1s linear}
@@ -334,7 +334,7 @@ div.attachments span.author{font-size:.9em;color:#767676}
 div.thumbnails{margin:5px}
 div.thumbnails div{background:#fff;border:2px solid #e1e1e1;display:inline-block;margin-right:0}
 div.thumbnails img{margin:5px;vertical-align:middle}
-p.other-formats{text-align:right;font-size:.9em;color:#626262}
+p.other-formats{text-align:right;font-size:.9em;color:#626262;margin-top:20px}
 .other-formats span+span:before{content:"| "}
 a.atom{background:url(../../../images/feed.png) no-repeat 1px 50%;padding:5px 0 5px 15px}
 em.info{font-style:normal;display:block;font-size:90%;color:#767676}
@@ -345,7 +345,7 @@ select.bool_cf{width:auto!important}
 #tab-content-users fieldset{padding:20px;margin-bottom:20px}
 #users_for_watcher{height:200px;overflow:auto}
 .roles-selection label{display:inline-block;width:210px}
-input.autocomplete{background:#fff url(../../../images/magnifier.png) no-repeat 2px 50%;padding-left:20px!important}
+input.autocomplete{background:#fff url(../../../images/magnifier.png) no-repeat 2px 4px;padding-left:20px!important}
 .objects-selection{height:300px;overflow:auto;margin-bottom:20px}
 #user_group_ids,.objects-selection>div{column-count:auto;column-width:200px;-webkit-column-count:auto;-webkit-column-width:200px;-webkit-column-gap:5px;-webkit-column-rule:1px solid #ccc;-moz-column-count:auto;-moz-column-width:200px;-moz-column-gap:5px;-moz-column-rule:1px solid #ccc}
 #errorExplanation,.conflict,.nodata,.warning,div.flash{padding:5px 5px 5px 30px;margin-bottom:10px;font-size:1.1em;border:1px solid;border-radius:4px}
@@ -375,7 +375,7 @@ p.cal.legend .starting.ending,table.cal .starting.ending a.issue{background:url(
 .tooltip span.tip{display:none;text-align:left}
 .tooltip span.tip a{color:#169!important}
 .tooltip span.tip img.gravatar{float:none;margin:0}
-div.tooltip:hover span.tip{display:block;position:absolute;top:12px;width:270px;border:1px solid #626262;background-color:#fff;padding:5px;font-size:.8em;color:#434343}
+div.tooltip:hover span.tip{display:block;position:absolute;top:12px;width:270px;border:1px solid #626262;background-color:#fff;padding:5px;font-size:.8em;color:#404040}
 table.cal div.tooltip:hover span.tip{top:25px}
 img.ui-datepicker-trigger{cursor:pointer;vertical-align:middle;margin-left:5px}
 table.progress{border-collapse:collapse;border-spacing:0;empty-cells:show;text-align:center;float:left;margin:0 5px 0 0;width:80px}
@@ -388,14 +388,14 @@ p.progress-info{clear:left;font-size:80%;margin-top:-5px;color:#767676}
 #content .tabs ul li{float:left;list-style-type:none;white-space:nowrap;margin-right:5px;position:relative;margin-bottom:0}
 #content .tabs ul li a{display:block;font-size:.9em;text-decoration:none;line-height:20px;padding:5px;border:1px solid #bebebe;border-bottom:1px solid #bebebe;color:#9f9f9f;font-weight:700;border-top-left-radius:3px;border-top-right-radius:3px}
 #content .tabs ul li a:hover{color:#767676;text-decoration:none}
-#content .tabs ul li a.selected{background-color:#fff;border:1px solid #bebebe;border-bottom:1px solid #fff;color:#434343}
+#content .tabs ul li a.selected{background-color:#fff;border:1px solid #bebebe;border-bottom:1px solid #fff;color:#404040}
 div.tabs-buttons{position:absolute;right:0;width:55px;height:25px;background:#fff;bottom:0;border-bottom:1px solid #bebebe}
 button.tab-left,button.tab-right{font-size:.9em;cursor:pointer;height:25px;border:1px solid #bebebe;border-bottom:1px solid #bebebe;position:absolute;padding:5px;width:25px;bottom:-1px}
 button.tab-left:focus,button.tab-right:focus{outline:0}
 button.tab-left{right:28px;background:#efefef url(../../../images/arrow_left.png) no-repeat 50% 50%;border-top-left-radius:3px}
 button.tab-right{right:4px;background:#efefef url(../../../images/arrow_right.png) no-repeat 50% 50%;border-top-right-radius:3px}
 button.tab-left.disabled,button.tab-right.disabled{background-color:#bebebe;cursor:unset}
-.text-diff{padding:20px;background-color:#f5f5f5;color:#434343;border:1px solid #e1e1e1;white-space:pre-wrap}
+.text-diff{padding:20px;background-color:#f5f5f5;color:#404040;border:1px solid #e1e1e1;white-space:pre-wrap}
 div.wiki table{border-collapse:collapse;margin-bottom:20px}
 div.wiki table,div.wiki td,div.wiki th{border:1px solid #bebebe;padding:5px}
 div.wiki .external{background-position:0 60%;background-repeat:no-repeat;padding-left:10px;background-image:url(../../../images/external.png)}
@@ -419,7 +419,7 @@ div.wiki>.task-list{padding-left:0}
 div.wiki .task-list input.task-list-item-checkbox{height:initial}
 .block-receiver{border:1px dashed #fff;padding:15px 0 0}
 .dragging .block-receiver{border:1px dashed #767676;margin-bottom:20px}
-.mypage-box{border:1px solid #e1e1e1;padding:10px;margin:0 0 20px;color:#434343;line-height:20px;border-radius:4px}
+.mypage-box{border:1px solid #e1e1e1;padding:10px;margin:0 0 20px;color:#404040;line-height:20px;border-radius:4px}
 .mypage-box>.contextual{opacity:.001;transition:opacity .2s}
 .handle{cursor:move}
 table.gantt-table{width:100%;border-collapse:collapse}
@@ -441,7 +441,7 @@ table.gantt-table{width:100%;border-collapse:collapse}
 .task.parent.marker.ending{position:absolute;background:url(../../../images/task_parent_end.png) no-repeat 0 0;width:10px;height:15px;margin-left:-5px;right:0;top:-1px}
 .version.marker{background-image:url(../../../images/version_marker.png);background-repeat:no-repeat;border:0;margin-left:-5px;margin-top:0}
 .project.marker{background-image:url(../../../images/project_marker.png);background-repeat:no-repeat;border:0;margin-left:-5px;margin-top:0}
-.badge{position:relative;font-weight:700;font-size:10px;bottom:2px;padding:0 5px;margin-right:0;margin-left:0;border-radius:2px;text-transform:uppercase;text-decoration:none}
+.badge{position:relative;font-size:10px;bottom:2px;padding:0 5px;margin-right:0;margin-left:0;border-radius:2px;text-transform:uppercase;text-decoration:none}
 .badge-private{background:#df182c;color:#fff;border:1px solid #df182c}
 .badge-count{color:#fff;background:#bebebe}
 .badge-status-open{color:#226fa1;border:1px solid #226fa1}
@@ -601,7 +601,7 @@ table.plugins span.description,table.plugins span.url{display:block;font-size:.9
 .contextual .icon,table.cal td .icon{padding-top:0;padding-bottom:5px}
 .contextual .icon{background-position:5px 50%}
 .message .contextual,div.issue .attribute.text_cf .value .wiki p:first-of-type,div.journal .contextual,li p{margin-top:0}
-.syntaxhl .o,legend{color:#434343}
+.syntaxhl .o,legend{color:#404040}
 div#search-results-counts ul,div.issue div.subject>div>p,div.issue p.author{margin-top:5px}
 #history div.thumbnails,#search-results,div#activity dl{margin-left:20px}
 .total-hours span.hours-int,div#roadmap .wiki h1{font-size:120%}
@@ -653,7 +653,7 @@ table.progress td.closed,table.progress td.done{background:#d0f2d0 none repeat s
 .syntaxhl .fm,.syntaxhl .mh,.syntaxhl .nf,.syntaxhl .nn{color:#226fa1;font-weight:700}
 .syntaxhl .c,.syntaxhl .c1,.syntaxhl .ch,.syntaxhl .cm,.syntaxhl .cpf,.syntaxhl .go,.syntaxhl .nv,.syntaxhl .ss,.syntaxhl .vm{color:#767676}
 #csv-export-options fieldset,#issue_tree td.buttons,#relations td.buttons,.gantt_subjects_column+td,.jstBlock .wiki-preview,table td,table.gantt-table td{padding:0}
-tr.message,body.controller-issues #content .tabs{height:25px}
+tr.message,body.controller-issues #content .tabs{height:30px}
 @media print {
 #main{background:#fff}
 #content{width:99%;margin:0;padding:0;border:0;background:#fff;overflow:visible!important}
@@ -699,10 +699,10 @@ div.flash.notice{background-image:url(/images/true.png)}
 div.flash.conflict,div.flash.warning{background-image:url(/images/warning.png)}
 div.flash.error{background-image:url(/images/exclamation.png)}
 #errorExplanation,.nodata,.warning{text-shadow:0 1px #fff;border:0}
-div.filters h2 .scope_title a{color:#434343;text-decoration:none}
+div.filters h2 .scope_title a{color:#404040;text-decoration:none}
 #sidebar{background:#f5f5f5;border:1px solid #e1e1e1;box-shadow:3px 3px rgba(0,0,0,.05);padding:0 10px 20px 15px !important;width:260px!important}
-div#content h2.contacts_header,div#content>#add-document>h2,div#content>#add-message>h2,div#content>#add-news>h2,div#content>.board.details>h2,div#content>.message.details>h2,div#content>div.filters h2,div#content>h2:not(.inline-flex){background:#f3f6f8;border-bottom:0 solid #e1e1e1;color:#434343;font-size:20px;font-weight:700;letter-spacing:-1px;margin:-10px -20px 20px;padding:10px 20px}
-div#content>h2{color:#434343;font-size:24px;padding:0;font-size:16px;font-weight:400}
+div#content h2.contacts_header,div#content>#add-document>h2,div#content>#add-message>h2,div#content>#add-news>h2,div#content>.board.details>h2,div#content>.message.details>h2,div#content>div.filters h2,div#content>h2:not(.inline-flex){background:#f3f6f8;border-bottom:0 solid #e1e1e1;color:#404040;font-size:20px;font-weight:700;letter-spacing:-1px;margin:-10px -20px 20px;padding:10px 20px}
+div#content>h2{color:#404040;font-size:24px;padding:0;font-size:16px;font-weight:400}
 .controller-boards.action-index #add-message{position:static}
 .controller-boards.action-index #add-message #message-form>p{background-color:#fff;border-bottom:1px solid #bebebe;margin:-10px;padding:10px;position:relative}
 .controller-boards.action-show div#content div#add-message h2,.controller-boards.action-show div#content h2,.controller-messages.action-show div#content h2,div#content>p.breadcrumb~h2{border-top:1px solid #bebebe;border-top-left-radius:0;border-top-right-radius:0;margin:0 -10px 10px;padding:10px 20px}
@@ -716,10 +716,10 @@ p.subtitle{margin:0 0 10px}
 .badge{bottom:1px;margin-left:5px;padding:0 5px}
 a,a:link,a:visited{color:#226fa1}
 div.issue.tooltip{margin:0 0 5px;padding:5px}
-#sidebar h3{color:#434343;font-weight:500;margin-bottom:5px;padding-bottom:5px}
+#sidebar h3{color:#404040;font-weight:500;margin-bottom:5px;padding-bottom:5px}
 #footer{display:none;margin:10px}
 .wiki h1,.wiki h2,.wiki h3,h2,h3,h4{border-bottom:0;margin-bottom:10px;margin-top:20px}
-.wiki.wiki-page>h2{border-bottom:1px solid #e1e1e1;padding:0}
+.wiki.wiki-page>h2{padding:0}
 .wiki.wiki-page>p:first-child{margin-top:0;margin-bottom:15px}
 #main-menu{background-color:#e1e1e1;font-weight:500;height:auto;left:0;position:relative;width:100%;height:50px}
 #main-menu ul{padding:0 20px}
@@ -743,14 +743,14 @@ tr.even.priority-3 td,tr.odd.priority-3 td{border-color:#e1e1e1}
 #ajax-modal p.buttons input[type=submit]:hover,.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-close.ui-state-hover,input[type=submit]:hover{background:#226fa1}
 #ajax-modal p.buttons input:hover,.details input[type=submit]:hover,.ui-datepicker .ui-datepicker-buttonpane button.ui-state-hover,input[type=button]:hover,input[type=submit].button-small:hover,input[type=submit].small:hover,input[type=submit][name=continue]:hover{background-color:#e1e1e1;transition-duration:.05s}
 .details input[type=submit],.query-columns .buttons input[type=button],.ui-datepicker .ui-datepicker-buttonpane button,input[type=button].small,input[type=submit].button-small,input[type=submit].small{font-size:90%;font-weight:700;height:20px;line-height:10px;padding:0 10px}
-input[type=date],input[type=password],input[type=text]:not(.icon),select,textarea{border:1px solid #e1e1e1;padding:0;padding:5px;border-color:#e1e1e1}
-fieldset#filters td.values input,input[type=date],input[type=number],input[type=password],input[type=search],input[type=text]:not(.icon){border-radius:0;min-height:15px;padding:5px}
+input[type=date],input[type=password],input[type=text]:not(.icon),select,textarea{border:1px solid #e1e1e1;padding:0;padding:0 5px;border-color:#e1e1e1}
+fieldset#filters td.values input,input[type=date],input[type=number],input[type=password],input[type=search],input[type=text]:not(.icon){border-radius:0;min-height:15px;padding:0 5px}
 input[type=checkbox]{height:initial}
 option{border-bottom:1px dotted #e1e1e1}
 input.autocomplete{border-radius:0;padding-left:20px!important;border-radius:initial}
 select#project_quick_jump_box{border-radius:12px;box-shadow:inset 0 1px 4px rgba(0,0,0,.15);outline:0;padding-left:10px}
-select{appearance:none;background:url(../../../images/select.png) no-repeat right #fff;background-color:#fff;background-size:18px 16px;border-radius:1px;cursor:pointer;min-height:23px;padding:5px 30px 5px 5px;text-indent:.01px;z-index:1;padding:5px 30px 5px 5px;min-height:25px;background:0 0}
-table.list tbody tr.even.priority-3:hover,table.list tbody tr.odd.priority-3:hover,tr.even.priority-3,tr.odd.priority-3,tr.priority-3 a{color:#2f4757}
+select{appearance:none;background:url(../../../images/select.png) no-repeat right #fff;background-color:#fff;background-size:18px 16px;border-radius:1px;cursor:pointer;min-height:23px;padding:0 5px;text-indent:.01px;z-index:1;min-height:25px;background:0 0}
+table.list tbody tr.even.priority-3:hover,table.list tbody tr.odd.priority-3:hover,tr.even.priority-3,tr.odd.priority-3,tr.priority-3 a{color:#434343}
 select[multiple=multiple]{background:#fff;height:auto;padding:5px}
 fieldset#filters td.values input:focus,input[type=date]:focus,input[type=password]:focus,input[type=search]:focus,input[type=text]:focus,select:focus,textarea:focus{border-color:#226fa1;outline:0}
 .check_box_group{border:1px solid #e1e1e1;border-radius:0}
@@ -838,7 +838,7 @@ table.ui-datepicker-calendar td.ui-datepicker-week-col{color:#9f9f9f}
 .ui-widget-header{background:0 0;border:0;color:inherit;font-weight:700}
 .ui-widget-content{background:#fff;color:#626262}
 .ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default{background:#fafafa;color:inherit;font-weight:700}
-.ui-dialog .ui-dialog-title{color:#434343;float:left;font-size:16px;margin:5px 15px 5px 0;padding:0 10px 0 0}
+.ui-dialog .ui-dialog-title{color:#404040;float:left;font-size:16px;margin:5px 15px 5px 0;padding:0 10px 0 0}
 .ui-widget-content .ui-state-focus{background:#efefef;border:1px solid #efefef}
 ul.ui-autocomplete{background-color:#fff;border:1px solid #e1e1e1;border-radius:6px;box-shadow:0 4px 16px rgba(0,0,0,.2);font-size:11px;margin-top:0}
 table.contacts.index tbody tr:hover,table.invoice-lines tbody tr.line-data:hover{background-color:#eff5f8!important}
@@ -847,7 +847,7 @@ table.contacts.index tbody tr:hover,table.invoice-lines tbody tr.line-data:hover
 #header h1 .current-project{font-size:22px}
 #header h1{height:60px}
 #quick-search{margin:0;width:415px;padding-top:17.5px;padding-bottom:17.5px}
-body.controller-issues.action-show div#content>h2{font-size:12px;color:#434343}
+body.controller-issues.action-show div#content>h2{font-size:12px;color:#404040}
 div#content .subject h3{font-size:18px;margin-top:0;padding-top:0;margin-bottom:0}
 .journal .note .wiki{padding:0 20px;margin-left:20px;padding-left:0}
 div.journal ul.details,ul.revision-info{margin:10px 0;padding-left:20px}
@@ -869,7 +869,7 @@ body #content.sidebar_hidden{margin-right:20px!important}
 #projects-index ul.projects li.root{margin-bottom:40px;padding:0;border:0;border-radius:0}
 ul.projects.root .root>a{display:block}
 #projects-index ul.projects div.description{margin:0;padding:0}
-#projects-index ul.projects div.description p{padding:10px;margin:0;padding-bottom:0;padding-left:20px;color:#434343}
+#projects-index ul.projects div.description p{padding:10px;margin:0;padding-bottom:0;padding-left:20px;color:#404040}
 .box{line-height:20px;padding:0;border:0;border-radius:0;background:0 0;margin:0}
 .controller-projects.action-show .box{margin-bottom:30px}
 dl#search-results{margin:20px}
@@ -923,7 +923,7 @@ body.controller-issues.action-show #content .tabs ul{position:initial}
 #content .wiki li{min-height:20px;display:block}
 #content .wiki li:before{content:"•";margin-right:10px}
 #content .wiki li ul li:before{content:"◦"}
-#content .issue~div.contextual{float:none;display:block;height:30px;text-align:right;padding:0}
+#content .issue~div.contextual{float:none;display:block;height:30px;text-align:right;padding:0;margin-top:20px}
 #content .helpdeks-ticket-line{min-height:0;height:0}
 body.controller-issues #add_notes.notes_with-send>legend{position:relative;top:-15px}
 body.controller-issues .icon-email-to{background-position:0 1px}
@@ -943,7 +943,7 @@ body.controller-users.action-show .splitcontentleft>h3:not(:first-of-type),body.
 #content .issue~div.contextual>.icon-edit,#content .issue~div.contextual>.icon-helpdesk-reply,#content .issue~div.contextual>:first-child~.icon-edit{float:left}
 #wrapper,html,tr.odd.priority-3{background:#f5f5f5}
 #content ul,.controller-projects.action-show .box>ul,table.list input[type=checkbox]{margin:5px 0}
-.contextual a:hover,.contextual a:visited:hover,.ui-datepicker .ui-widget-header a,.wiki h2,div#welcome-store-content h1,div#welcome-store-content h2,div#welcome-store-content h3,div#welcome-store-content h4,h3,table.list tr.issue a,table.list.contacts tr td a{color:#434343}
+.contextual a:hover,.contextual a:visited:hover,.ui-datepicker .ui-widget-header a,.wiki h2,div#welcome-store-content h1,div#welcome-store-content h2,div#welcome-store-content h3,div#welcome-store-content h4,h3,table.list tr.issue a,table.list.contacts tr td a{color:#404040}
 .check_box_group input,.version-overview table.progress td{height:15px}
 #history .tab-content,#login-form input#login-submit,#search-results dd span.author,#search-results dd span.description,#tab-content-versions fieldset,.drdn-items>*,.issue .attachments table td,.journal h4.note-header,div#activity dd span.author,div#activity dd span.description,legend,table.list td.checkbox{padding:0}
 #search-form>.box>fieldset:last-of-type,body.controller-issues.action-index table.list,body.controller-timelog.action-index table.list,div.journal .note .wiki p:last-child,h2 span.tag-label-color a{margin-bottom:0}
@@ -964,6 +964,8 @@ div#content{width:100%}
 #content>.contextual .drdn,#content>.contextual>a,p.buttons a{border:0!important}
 #history .tabs{overflow:visible;margin-bottom:-5px}
 #history{margin-top:0}
+#content > .contextual > a, #content > .contextual .drdn, p.buttons a {padding-top:5px !important}
+#project-jump.drdn{padding-top:10px !important}
 }
 #filters-table .field > label{margin-left:5px}
 .tabular input,.tabular select{max-width:95%}
@@ -973,3 +975,4 @@ body.controller-contacts tr > .name{padding-left:10px}
 body.controller-issues .journal.has-journal-message .gravatar{display:none}
 body.controller-issues .icon-helpdesk-reply + .icon-edit{margin-left:5px}
 body.controller-issues .journal-actions .drdn{margin-left:5px}
+.jstElements button{height:25px !important;width:25px !important}

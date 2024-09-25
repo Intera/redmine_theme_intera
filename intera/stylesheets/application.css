@@ -932,7 +932,7 @@ body.controller-issues .helpdesk-ticket-to label{margin-left:0;padding-left:20px
 blockquote{padding-left:5px;margin:15px 0}
 div.journal .note>p{margin:10px 0;margin-left:20px}
 #content .jstTabs.tabs li,#content ul li ul,#search-form fieldset p,#search-form p,.contextual,.controller-projects.action-show .box>p,.table-list,div#roadmap,div#search-results-counts ul,div.issue div.subject>div>p,div.thumbnails img,table.list{margin:0}
-.pagination ul.pages li:first-child,table.list td+td,table.list th+th{border-left:1px solid #e1e1e1}
+.pagination ul.pages li:first-child{border-left:1px solid #e1e1e1}
 .splitcontentleft{margin-right:10px}
 body.controller-settings.action-index #content .tab-content>form>*,div.issue .attributes,div.issue p.author{margin-top:15px}
 .tabular label:not(:first-child){margin-left:0}
@@ -949,7 +949,7 @@ body.controller-users.action-show .splitcontentleft>h3:not(:first-of-type),body.
 #search-form>.box>fieldset:last-of-type,body.controller-issues.action-index table.list,body.controller-timelog.action-index table.list,div.journal .note .wiki p:last-child,h2 span.tag-label-color a{margin-bottom:0}
 #preview_issue_description,.table-list-header,.ui-autocomplete .ui-menu .ui-menu-item a,.ui-datepicker .ui-datepicker-buttonpane,table.list td,table.list th{padding:5px}
 #projects-index ul.projects li.child ul li,#projects-index ul.projects li.child ul li:first-child,.controller-wiki div#content>div.contextual,body.controller-issues .action-show div#content>div.contextual{margin-top:5px}
-#content>.contextual:first-child,body.controller-issues.action-show #content>.contextual:first-child{margin-top:-5px}
+#content>.contextual:first-child,body.controller-issues.action-show #content>.contextual:first-child,body.controller-issues.action-show #content>.flash.notice+.contextual{margin-top:-5px}
 #content .jstTabs.tabs,#projects-index>ul.projects,.journal .note .wiki blockquote:first-child,.ui-datepicker-prev span,.wiki p:first-child,body.controller-contacts.action-index #content>.contextual:first-child,body.controller-my.action-page #content>.contextual:first-child,body.controller-versions.action-index .version-overview p,div#activity h3+dl,div#content .subject>div>p+div>h3,div.journal .note .wiki p:first-child,div.journal.private-notes .wiki p,div.ui-datepicker-next span,p.progress-info{margin-top:0}
 table.list td.icon,.icon{padding-left:20px}
 table.list tr.priority-highest,table.list tr.priority-high2,.note-header{font-weight:700}
@@ -976,3 +976,4 @@ body.controller-issues .journal.has-journal-message .gravatar{display:none}
 body.controller-issues .icon-helpdesk-reply + .icon-edit{margin-left:5px}
 body.controller-issues .journal-actions .drdn{margin-left:5px}
 .jstElements button{height:25px !important;width:25px !important}
+.issue #issue_tree td+td, .issue #relations td+td{border:0}
